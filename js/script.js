@@ -35,13 +35,17 @@ document.addEventListener("DOMContentLoaded", function () {
 },
   });
 
-  function MatchHeight() {
-  $('.you_content h4').matchHeight();
-// $('.resp-tabs-container .resource_tab_card_content h3').matchHeight({ byRow: false });
-  // $('.resource_tab_card_content p').matchHeight();
-}
+//   function MatchHeight() {
+//   $('.you_content h4').matchHeight();
+// // $('.resp-tabs-container .resource_tab_card_content h3').matchHeight({ byRow: false });
+//   // $('.resource_tab_card_content p').matchHeight();
+// }
 
 // 
+ function MatchHeight() {
+    $('.you_content h4').matchHeight({});
+  }
+  MatchHeight();
 
 
 });
