@@ -1,0 +1,1862 @@
+@media only screen and (min-width:1700px) {
+  .container {
+    max-width: 1600px !important;
+  }
+}
+
+@media only screen and (max-width:1700px) {
+  .resp-tabs-list::after {
+
+    max-width: 325px;
+  }
+
+  .resource_tab_card_content h3 {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+  #nav {
+    /* width: 80%; */
+    position: relative;
+    border: none;
+  }
+
+  #nav li {
+    display: inline;
+  }
+
+  #nav li a {
+    display: inline-block;
+  }
+
+  #nav .resourse_tab_wrapper {
+    padding: 0;
+    position: relative;
+    /* top: 42px;
+    left: 0; */
+  }
+}
+
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+  ul.resp-tabs-list {
+    display: none;
+  }
+
+  h2.resp-accordion {
+    display: block;
+  }
+
+  .resp-vtabs .resp-tab-content {
+    border: 1px solid #C1C1C1;
+  }
+
+  .resp-vtabs .resp-tabs-container {
+    border: none;
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    clear: none;
+  }
+
+  .resp-accordion-closed {
+    display: none !important;
+  }
+
+  .resp-vtabs .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1 !important;
+  }
+}
+@media only screen and (max-width:1700px){
+  .Resource_tab-list::before {
+    max-width: 345px;
+}
+}
+
+@media only screen and (max-width:1400px) {
+
+  /* header-section-starts */
+  .header_nav ul li a {
+    font-size: 16px;
+  }
+
+  .banner_section {
+    padding-top: 80px;
+  }
+
+  .banner_heading h1 {
+    font-size: 47px;
+  }
+
+  .banner_heading p {
+    font-size: 22px;
+  }
+
+  /* header-section-ends */
+  .you_section {
+    padding: 30px 0 84px 0;
+  }
+
+  .common_heading h2 {
+    font-size: 38px;
+  }
+
+  /* you-section-starts */
+  /* .you_content {
+    padding: 40px 35px;
+} */
+  .you_content h4 {
+    font-size: 24px;
+  }
+
+  /* you-section-ends */
+
+  /* tab-section-starts */
+  .tab_section {
+    padding: 80px 0;
+  }
+
+  .tab_main_heading p {
+    font-size: 22px;
+  }
+
+  .tab_main_heading {
+    margin-bottom: 100px;
+  }
+
+  .tab_ul li a {
+    font-size: 23px;
+  }
+
+  .tab_heading h2 {
+    font-size: 40px;
+  }
+
+  .tab_heading p {
+    font-size: 22px;
+  }
+
+  .battle_content h3 {
+    font-size: 27px;
+  }
+
+  .battle_content p {
+    font-size: 21px;
+  }
+
+  .check_arrow_title h4 {
+    padding-left: 48px;
+    font-size: 25px;
+  }
+
+  .check_arrow_title h4::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .home_small_para p {
+    font-size: 21px;
+  }
+
+  .battle_content {
+    margin-bottom: 70px;
+  }
+
+  .siege_img {
+    max-width: 100%;
+    height: 365px;
+  }
+
+  .home_image_wrapper_second .siege_img {
+    max-width: 100%;
+    height: 237px;
+  }
+
+  .home_short_content_area p {
+    font-size: 22px;
+  }
+}
+  /* tab-section-starts */
+
+
+  /* what-section-starts */
+  .what_section {
+    padding: 80px 0;
+  }
+
+  .what_heading p {
+    font-size: 22px;
+  }
+
+  .what_test_heading h3 {
+    font-size: 35px;
+  }
+
+  .what_test_content ul li {
+    font-size: 22px;
+  }
+
+  .what_test_content p {
+    font-size: 22px;
+  }
+
+  /* what-section-ends */
+
+
+  /* help-section-starts */
+  .help_section {
+    padding: 80px 0;
+  }
+
+  .help_arrow::after {
+    margin-left: 20px;
+    width: 77px;
+    height: 30px;
+  }
+
+  .help_content p {
+    font-size: 22px;
+  }
+
+  .help_box-area h3 {
+    font-size: 27px;
+  }
+
+  .help_box-area h3::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .help_box-area p {
+    font-size: 22px;
+  }
+
+  .help_box_links a {
+    font-size: 18px;
+  }
+
+  .help_box-area {
+    padding: 60px 50px;
+  }
+
+  /* help-section-ends */
+
+  /* symptom-section-starts */
+  .symptom_arrow::after {
+    margin-left: 20px;
+    width: 77px;
+    height: 30px;
+  }
+
+  .bold_symptom_content h4 {
+    font-size: 26px;
+  }
+
+  .bold_symptom_content p {
+    font-size: 22px;
+  }
+
+  .symptom_box-area h3 {
+    font-size: 27px;
+  }
+
+  .symptom_box-area h3::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .symptom_box-area {
+    padding: 60px 50px;
+  }
+
+  .symptom_box-area p {
+    font-size: 23px;
+  }
+
+  /* symptom-section-ends */
+
+  /* impact-section-starts */
+  .impact_section {
+    padding: 80px 0;
+  }
+
+  .impact_box-area {
+    padding: 60px 50px;
+  }
+
+  .impact_arrow::after {
+    margin-left: 20px;
+    width: 77px;
+    height: 30px;
+  }
+
+  .impact_content p {
+    font-size: 22px;
+  }
+
+  .impact_box-area h3 {
+    font-size: 27px;
+  }
+
+  .impact_box-area h3::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .impact_box-area ul li {
+    font-size: 22px;
+  }
+
+  .impact_box-area p {
+    font-size: 22px;
+  }
+
+  /* impact-section-ends */
+
+  /* resource-section-starts */
+/*   
+  .resource_section {
+    padding: 80px 0;
+  }
+
+  .resp-tabs-list h2 {
+    font-size: 33px !important;
+  }
+
+  .resp-tabs-list::after {
+    max-width: 240px;
+  }
+
+  .resource_tab_card_content h3 {
+    font-size: 26px;
+  }
+
+  .resource_tab_card_content p {
+    font-size: 19px;
+
+  }
+
+  .resource_tab_card_number p {
+    font-size: 37px;
+    line-height: 1;
+  }
+
+  .resp-tabs-list {
+    margin-bottom: 80px;
+  }
+
+  .additional_information_area h3 {
+    font-size: 30px;
+  }
+
+  .additional_information_area p {
+    font-size: 21px;
+  }
+
+  .additional_information_links {
+    margin-top: 50px;
+  } */
+.Resource_tab_section {
+    padding: 80px 0;
+}
+  .Resource_tab-list a {
+    font-size: 30px;
+}
+.Resource_tab-list::before {
+    max-width: 290px;
+}
+.resource_tab_card_content h3 {
+    font-size: 26px;
+}
+.Resource_tab-list {
+    margin-bottom: 120px;
+}
+.resource_tab_card_content p {
+    font-size: 20px;
+}
+ .resource_tab_card_number p{
+        font-size: 38px;
+    }
+    
+  .additional_information_area h3 {
+    font-size: 30px;
+  }
+
+  .additional_information_area p {
+    font-size: 21px;
+  }
+
+  .additional_information_links {
+    margin-top: 50px;
+  /* resource-section-ends */
+
+  /* where-section-starts */
+  .where_section {
+    padding: 80px 0;
+  }
+
+  .where_heading {
+    margin-bottom: 75px;
+  }
+
+  .where_card_content h3 {
+    font-size: 29px;
+  }
+
+  .where_card_content p {
+    font-size: 22px;
+  }
+
+  .where_card_btn_area a img {
+    width: 40px;
+  }
+
+  /* where-section-ends */
+
+  /* other-project-section-starts */
+  .other_project_section {
+    padding: 80px 0;
+  }
+
+  /* other-project-section-ends */
+
+  /* mold-section-starts */
+  .mold_section {
+    padding: 80px 0;
+  }
+
+  .mold_content_heading h2 span {
+    font-size: 48px;
+  }
+
+  .mold_content_text p {
+    font-size: 21px;
+  }
+
+  .mold_content_area {
+    padding: 60px 0 60px 60px;
+  }
+
+  /* mold-section-ends */
+
+  /* footer-section-starts */
+  .footer_nav_area h6 {
+    font-size: 19px;
+  }
+
+  /* footer-section-ends */
+}
+
+
+@media only screen and (max-width:1199px) {
+
+  /* header-section-starts */
+  .hamburger_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hamburger_menu i {
+    color: #01204e;
+    font-size: 30px;
+  }
+
+  .header_main_nav {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    background-color: #f4e8d0;
+    width: 50%;
+    left: -50%;
+    transition: all .5s;
+    height: 100%;
+  }
+
+  .header_mobile_nav_active {
+    left: 0;
+  }
+
+  .mobile_nav_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid #767373;
+  }
+
+  .close_btn i {
+    font-size: 30px;
+    color: #01204e;
+  }
+
+  .header_nav ul {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+  }
+
+  .header_nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .header_nav ul li a {
+    font-size: 22px;
+
+  }
+
+  /* header-section-ends */
+
+  /* banner-section-starts */
+  .banner_heading h1 {
+    font-size: 40px;
+  }
+
+  .banner_section {
+    padding-top: 50px;
+  }
+
+  .banner_heading p {
+    font-size: 20px;
+  }
+
+  .common_btn a {
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .banner_heading {
+    padding-bottom: 80px;
+  }
+
+  .common_heading h2 {
+    font-size: 34px;
+  }
+
+  /* banner-section-ends */
+
+  /* you-section-starts */
+  .you_section {
+    padding: 30px 0 60px 0;
+  }
+
+  .you_content {
+    padding: 35px 30px;
+  }
+
+  .you_content h4 {
+    font-size: 22px;
+  }
+
+  /* you-section-ends */
+
+  /* tab-section-starts */
+  .tab_section {
+    padding: 60px 0;
+  }
+
+  .tab_main_heading h2 {
+    margin-bottom: 18px;
+  }
+
+  .tab_main_heading p {
+    font-size: 20px;
+  }
+
+  .tab_ul li a {
+    font-size: 21px;
+  }
+
+  .tab_heading h2 {
+    font-size: 35px;
+  }
+
+  .tab_heading p {
+    font-size: 20px;
+  }
+
+  .battle_content h3 {
+    font-size: 24px;
+  }
+
+  .battle_content p {
+    font-size: 20px;
+  }
+
+  .check_arrow_title h4 {
+    padding-left: 40px;
+    font-size: 22px;
+  }
+
+  .home_short_content_area p {
+    font-size: 20px;
+  }
+
+  .cta_description p b {
+    font-size: 20px;
+  }
+
+  /* tab-section-ends */
+
+  /* what-section-starts */
+  .what_section {
+    padding: 60px 0;
+  }
+
+  .what_heading h2 {
+    margin-bottom: 18px;
+  }
+
+  .what_heading p {
+    font-size: 20px;
+  }
+
+  .what_test_heading h3 {
+    font-size: 30px;
+  }
+
+  .what_test_content ul li {
+    font-size: 18px;
+  }
+
+  .what_test_content ul li::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .what_test_content p {
+    font-size: 20px;
+  }
+
+  /* what-section-ends */
+
+  /* help-section-starts */
+  .help_section {
+    padding: 60px 0;
+  }
+
+  .help_content p {
+    font-size: 20px;
+  }
+
+  .help_box-area {
+    padding: 50px 45px;
+  }
+
+  .help_box-area h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .help_box-area p {
+    font-size: 20px;
+  }
+
+  .help_box_links a {
+    font-size: 16px;
+  }
+
+  /* help-section-ends */
+
+  /* symptom-section-starts */
+  .symptom_section {
+    padding: 60px 0;
+  }
+
+  .symptom_content p {
+    font-size: 20px;
+  }
+
+  .bold_symptom_content h4 {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  .symptom_box-area {
+    padding: 50px 45px;
+  }
+
+  .symptom_box-area h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .symptom_box-area p {
+    font-size: 20px;
+  }
+
+  /* symptom-section-ends */
+
+  /* impact-section-starts */
+ 
+  .impact_content p {
+    font-size: 20px;
+  }
+
+  .impact_box-area {
+    padding: 50px 45px;
+  }
+
+  .impact_box-area h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .impact_box-area p {
+    font-size: 20px;
+  }
+
+  .impact_box-area ul li {
+    font-size: 18px;
+  }
+
+  .impact_box-area ul li::before {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* impact-section-ends */
+
+  /* resource-section-starts */
+/*   
+  .resource_section {
+    padding: 60px 0;
+  }
+
+  .resp-tabs-list h2 {
+    font-size: 29px !important;
+  }
+
+  .resp-tabs-list::after {
+    max-width: 220px;
+  }
+
+  .resp-tabs-list li {
+    margin: 0 30px 0 0;
+  }
+
+  .resource_tab_card_content h3 {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  .resource_tab_card_content p {
+    font-size: 18px;
+  }
+
+  .resource_tab_card_number p {
+    font-size: 33px;
+  }
+
+  .additional_information_area h3 {
+    font-size: 28px;
+  }
+
+  .additional_information_area p {
+    font-size: 19px;
+  }
+
+  .additional_information_links a {
+    font-size: 18px;
+  } */
+
+.Resource_tab-list {
+    margin-bottom: 100px;
+}
+.Resource_tab-list a {
+    font-size: 27px;
+}
+.Resource_tab-list::before {
+    max-width: 235px;
+}
+.resource_tab_card_content h3 {
+    font-size: 24px;
+}
+.resource_tab_card_content p {
+    font-size: 18px;
+}
+
+  .additional_information_area h3 {
+    font-size: 28px;
+  }
+
+  .additional_information_area p {
+    font-size: 19px;
+  }
+
+  .additional_information_links a {
+    font-size: 18px;
+  }
+  /* resource-section-ends */
+
+  /* where-section-starts */
+  .where_section {
+    padding: 60px 0;
+  }
+
+  .where_card_area {
+    padding: 27px;
+  }
+
+  .where_card_content {
+    padding: 30px 17px 0 17px;
+  }
+
+  .where_card_content h3 {
+    font-size: 24px;
+  }
+
+  .where_card_content p {
+    font-size: 20px;
+  }
+
+  .where_card_btn_area a img {
+    width: 35px;
+  }
+
+  .where_card_wrapper>.row>*:nth-child(even) .where_card_area {
+    margin-top: 60px;
+  }
+
+  .where_card_wrapper>.row>*:nth-child(odd) .where_card_area {
+    margin-bottom: 60px;
+  }
+  .where_card_area {
+    padding: 22px;
+}
+
+  /* where-section-ends */
+
+  /* other-project-section-starts */
+  .other_project_section {
+    padding: 60px 0;
+  }
+
+  /* other-project-section-ends */
+
+  /* mold-section-starts */
+  .mold_section {
+    padding: 60px 0;
+  }
+  .mold_content_heading::after {
+    max-width: 130px;
+}
+
+  .mold_content_heading h2 span {
+    font-size: 40px;
+  }
+
+  .mold_area {
+    padding: 50px;
+  }
+
+  .mold_content_area {
+    padding: 50px 0 50px 50px;
+  }
+
+  .mold_content_text p {
+    font-size: 20px;
+  }
+
+  /* mold-section-ends */
+
+  /* footer-sesction-starts */
+  .logo_area p {
+    font-size: 18px;
+  }
+
+  .footer_nav_area ul li a {
+    font-size: 18px;
+  }
+
+  .desigined_area p {
+    font-size: 18px;
+  }
+
+  .copyright_text p {
+    font-size: 18px;
+  }
+
+  /* footer-sesction-ends */
+}
+
+
+@media only screen and (max-width:991px) {
+
+  /* header-section-starts */
+  .header_nav ul li a {
+    font-size: 20px;
+}
+
+/* banner-section-starts */
+  .banner_heading h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .banner_video_wrapper {
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.banner_video_wrapper img {
+    border-radius: 5px;
+        border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+  .banner_heading p {
+    font-size: 18px;
+  }
+/* banner-section-starts */
+  /* header-section-ends */
+
+  /* you-section-starts */
+  .you_section {
+    padding: 30px 0 50px 0;
+  }
+
+  .common_heading h2 {
+    font-size: 30px;
+  }
+
+  .you_img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .you_content h4 {
+    font-size: 20px;
+  }
+
+  .you_content {
+    padding: 28px 25px;
+  }
+
+  ul.tabs {
+    display: none;
+  }
+
+  .tab_drawer_link {
+    display: flex;
+    background-color: #f4efdf;
+    color: #01204e;
+    margin-bottom: 20px;
+    border: 1px solid #c3c3c3;
+  }
+
+  .tab_drawer_link.d_active {
+    background-color: #018393;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+.tab_heading h2 {
+    font-size: 30px;
+}
+.tab_heading p {
+    font-size: 17px;
+}
+.tab_row {
+    margin-bottom: 50px;
+}
+.battle_content h3 {
+    font-size: 22px;
+}
+.battle_content p {
+    font-size: 17px;
+}
+.battle_content {
+    margin-bottom: 50px;
+}
+.home_small_para p {
+    font-size: 18px;
+}
+.for_home_info_points_wrapper {
+    margin-bottom: 50px;
+}
+.siege_img {
+    height: 450px;
+}
+.home_image_wrapper_second .siege_img {
+    height: 312px;
+}
+.tab_image_content {
+    margin-bottom: 60px;
+}
+.home_short_content_area p {
+    font-size: 17px;
+}
+.you_swiper_area {
+    padding-inline: 45px;
+}
+  /* you-section-ends */
+
+  /* what-section-starts */
+  .what_section {
+    padding: 50px 0;
+}
+.what_heading p {
+    font-size: 17px;
+}
+.what_heading {
+    margin-bottom: 55px;
+}
+.what_test_heading h3 {
+    font-size: 25px;
+}
+.what_test_content ul li {
+    margin-bottom: 35px;
+}
+.what_test_content p {
+    font-size: 17px;
+}
+.what_test_content ul li::before {
+    width: 25px;
+    height: 25px;
+}
+.what_test_content ul li {
+padding-left: 40px;
+}
+.what_test_area {
+    padding-bottom: 40px;
+}
+  /* what-section-ends */
+
+  /* help-sections-starts */
+  .help_section{
+    padding: 50px 0;
+  }
+  .help_arrow::after {
+    content: unset;
+}
+.help_content p {
+    font-size: 17px;
+}
+.help_box-area h3 {
+padding-left: 40px;
+}
+.help_box-area p {
+    font-size: 18px;
+}
+.help_box-area {
+    padding: 40px 35px;
+}
+  /* help-sections-starts */
+
+  /* symptom-section-starts */
+  .symptom_section{
+    padding: 50px 0;
+  }
+  .symptom_arrow::after {
+    content: unset;
+}
+.symptom_content p {
+    font-size: 17px;
+}
+.bold_symptom_content h4 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.symptom_box-area h3 {
+padding-left: 40px;
+}
+.symptom_box-area {
+    padding: 40px 35px;
+}
+.symptom_box-area p {
+    font-size: 18px;
+}
+  /* symptom-section-ends */
+
+  /* impact-section-starts */
+  .impact_section{
+    padding: 50px 0;
+  }
+  .impact_arrow::after {
+    content: unset;
+}
+.impact_content p {
+    font-size: 17px;
+}
+.impact_box-area p {
+    font-size: 18px;
+}
+.impact_box-area h3 {
+padding-left: 40px;
+}
+.impact_box-area ul li {
+   padding-left: 40px;
+}
+.impact_box-area ul li::before {
+    height: 25px;
+    width: 25px;
+}
+
+ ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: 100px;
+        clear: none;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+
+
+  /* impact-section-ends */
+
+  /* resource-sections-starts */
+     .Resource_tab-list { display: none; }
+      .Resource_tab-content { display: none !important; }
+      .Resource_accordion-list { display: block; }
+
+      .additional_information_links a {
+    font-size: 15px;
+    min-width: 160px;
+}
+  /* resource-sections-ends */
+
+  /* where-section-starts */
+  .where_section {
+    padding: 50px 0;
+}
+.where_card_content h3 {
+    font-size: 22px;
+}
+.where_card_content p {
+    font-size: 16px;
+}
+.where_card_btn_area a img {
+    width: 30px;
+}
+.where_card_wrapper>.row>*:nth-child(odd) .where_card_area {
+    margin-bottom: 58px;
+}
+.where_card_wrapper>.row>*:nth-child(even) .where_card_area {
+    margin-bottom: 48px;
+}
+.where_card_explore_btn {
+    margin-top: 50px;
+}
+  /* where-section-ends */
+
+  /* other-project-section-starts */
+  .other_project_section {
+    padding: 50px 0;
+}
+  /* other-project-section-ends */
+
+  /* mold-section-starts */
+  .mold_section {
+    padding:50px 0;
+}
+.mold_content_heading h2 span {
+    font-size: 34px;
+}
+.mold_content_area {
+padding: 40px 0;
+}
+.mold_content_text p {
+    font-size: 16px;
+}
+.mold_img img {
+    max-height: 500px;
+    object-fit: scale-down;
+}
+.mold_content_heading::after {
+    max-width: 100px;
+}
+  /* mold-section-ends */
+
+  /* footer-section-starts */
+  footer {
+    padding: 60px 0 0 0;
+}
+  /* footer-section-ends */
+}
+
+
+@media only screen and (max-width:767px){
+  .container, .container-sm {
+        max-width: unset!important;
+    }
+    /* header-section-starts */
+    .header_area {
+    padding: 18px 0;
+}
+    .logo a img {
+  max-width: 150px;
+}
+
+    /* header-section-ends */
+
+    /* banner-section-starts */
+    .banner_heading {
+    padding-bottom: 50px;
+}
+.banner_heading h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.banner_heading p {
+    font-size: 16px;
+}
+.common_btn a {
+    font-size: 14px;
+ padding:0 30px;
+}
+.video_icon_area {
+    width: 45px;
+    height: 45px;
+}
+.video_icon_area i {
+    font-size: 18px;
+}
+    /* banner-section-ends */
+
+    /* you-section-starts */
+    .common_heading h2 {
+    font-size: 28px;
+}
+    /* you-section-ends */
+
+    /* tab-section-starts */
+    .tab_section {
+    padding: 30px 0;
+}
+.tab_heading h2 {
+    font-size: 28px;
+}
+.tab_heading p {
+    font-size: 14px;
+}
+.tab_main_heading p {
+    font-size: 16px;
+}
+.battle_content h3 {
+    font-size: 20px;
+}
+.battle_content p {
+    font-size: 14px;
+}
+.check_arrow_title h4 {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+.home_small_para p {
+    font-size: 14px;
+}
+.siege_img {
+    height: 530px;
+}
+.home_image_wrapper_second .siege_img {
+    height: 355px;
+}
+.home_short_content_area p {
+    font-size: 14px;
+}
+.cta_description p b {
+    font-size: 16px;
+}
+    /* tab-section-ends */
+
+    /* what-section-starts */
+    .what_section{
+      padding: 30px 0;
+    }
+    .what_heading p {
+    font-size: 14px;
+}
+.what_test_heading h3 {
+    font-size: 22px;
+}
+.what_test_content ul li {
+    font-size: 16px;
+}
+.what_test_content ul li::before {
+    width: 22px;
+    height: 22px;
+}
+.what_test_content ul {
+    margin-bottom: 25px;
+}
+.what_test_content p {
+    font-size: 14px;
+}
+    /* what-section-ends */
+
+    /* help-section-starts */
+    .help_content p {
+    font-size: 14px;
+}
+.help_box-area h3 {
+    font-size: 22px;
+}
+.help_box-area p {
+    font-size: 14px;
+}
+.help_box-area {
+    padding: 30px;
+}
+.help_box-area h5 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.help_box_links a {
+    font-size: 14px;
+}
+    /* help-section-ends */
+
+    /* symptom-section-starts */
+    .symptom_content p {
+    font-size: 14px;
+}
+.bold_symptom_content h4 {
+    font-size: 20px;
+}
+.symptom_box-area h3 {
+    font-size: 22px;
+}
+.symptom_box-area p {
+    font-size: 14px;
+}
+.symptom_box-area {
+    padding:  30px;
+}
+.symptom_box-area:not(:last-child) {
+    margin-bottom: 30px;
+}
+    /* symptom-section-ends */
+
+    /* impact-section-starts */
+    .impact_content p {
+    font-size: 14px;
+}
+.impact_box-area {
+    padding: 30px;
+}
+.impact_box-area:not(:last-child) {
+    margin-bottom: 30px;
+}
+.impact_box-area p {
+    font-size: 14px;
+}
+.impact_box-area ul li {
+    font-size: 16px;
+}
+.impact_box-area ul li:not(:last-child) {
+    margin-bottom: 30px;
+}
+    /* impact-section-ends */
+
+    /* resource-tab-section-starts */
+    .resource_tab_card_content h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.resource_tab_card_content p {
+    font-size: 14px;
+}
+.resource_tab_card_number p {
+    font-size: 25px;
+}
+.additional_information_area h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.additional_information_area p {
+    font-size: 14px;
+}
+.additional_information_area {
+    margin-top: 40px;
+}
+.additional_information_links a {
+    font-size: 14px;
+    min-width: 140px;
+}
+.where_card_content p {
+    font-size: 14px;
+}
+.where_card_wrapper>.row>*:nth-child(odd) .where_card_area {
+    margin-bottom: 0;
+}
+
+.where_card_wrapper>.row>*:nth-child(even) .where_card_area {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+    /* resource-tab-section-ends */
+
+    /* mold-section-starts */
+    .mold_content_heading h2 span {
+    font-size: 28px;
+}
+.mold_content_text p {
+    font-size: 14px;
+}
+.mold_content_heading::after {
+    max-width: 80px;
+}
+    /* mold-section-ends */
+
+    /* footer-section-starts */
+    .logo_area img {
+max-width: 150px;
+}
+    .footer_nav_area h6 {
+    margin-bottom: 27px;
+    font-size: 18px;
+}
+.logo_area p {
+    font-size: 14px;
+}
+.footer_nav_area ul li a {
+    font-size: 16px;
+}
+.copyright_text p {
+    font-size: 16px;
+}
+.desigined_area p {
+    font-size: 16px;
+}
+.tab_content {
+    padding: 0;
+}
+    /* footer-section-ends */
+}
+
+@media only screen and (max-width:575px){
+  /* header-section-starts */
+  .header_main_nav {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    background-color: #f4e8d0;
+    width: 80%;
+    left: -80%;
+    transition: all .5s;
+    height: 100%;
+}
+.header_mobile_nav_active {
+    left: 0;
+}
+.hamburger_menu i {
+    font-size: 25px;
+}
+  /* header-section-ends */
+
+  /* banner-section-starts */
+  .common_btn a {
+    line-height: 40px;
+}
+.you_swiper_area {
+    padding-inline: 15px;
+}
+.you_swiper {
+    padding-bottom: 0px !important;
+}
+  /* banner-section-ends */
+
+  /* tab-section-starts */
+  .siege_img {
+    height: unset;
+    margin-bottom: 24px;
+}
+.home_image_wrapper_second :last-child.siege_img{
+  margin-bottom: 0;
+}
+.home_image_wrapper_second .siege_img {
+    height: unset;
+}
+  /* tab-section-ends */
+
+  /* mold-section-starts */
+  .mold_content_heading::after {
+    max-width: 50px;
+}
+  /* mold-section-ends */
+}
+
+@media only screen and (max-width:480px){
+
+  /* header-section-starts */
+  .header_area {
+    padding: 10px 0;
+}
+  .mobile_nav_header {
+    padding: 18px;
+}
+.header_main_nav {
+    width: 100%;
+    left: -100%;
+}
+.header_mobile_nav_active {
+    left: 0;
+}
+.header_nav ul {
+    gap: 15px;
+    padding: 18px;
+}
+.header_nav ul li a {
+    font-size: 17px;
+}
+  /* header-section-ends */
+
+  /* tab-section-starts */
+    .tab_heading h2 {
+    font-size: 22px;
+}
+.tab_drawer_link {
+    font-size: 14px;
+}
+.tab_drawer_link svg {
+    width: 18px;
+    height: 18px;
+}
+
+  /* tab-section-starts */
+
+/* you-section-starts */
+.tab_main_heading {
+    margin-bottom: 50px;
+}
+.you_custom_pagination {
+    margin-top: 10px !important;
+}
+.swiper-pagination-bullet {
+    width: 25px !important;
+    height: 5px !important;
+}
+.common_heading h2 {
+    font-size: 23px;
+}
+.check_arrow_title h4::before {
+    width: 20px;
+    height: 20px;
+}
+.check_arrow_title h4 {
+ padding-left: 30px;
+}
+.timeline_main_content {
+    padding-right: 0;
+}
+/* you-section-starts */
+
+/* what-section-starts */
+.what_test_area {
+    padding: 12px;
+}
+.what_test_heading {
+    padding: 15px;
+}
+.what_test_heading h3 {
+    font-size: 16px;
+}
+.what_test_content ul {
+    margin-inline: 0;
+}
+.what_test_content ul li {
+    padding-left: 32px;
+    margin-bottom: 27px;
+}
+.what_test_content p {
+    padding-inline: 0;
+}
+.what_test_content ul li {
+    font-size: 14px;
+}
+.what_test_exposed_area {
+    margin-bottom: 30px;
+}
+.what_test_content ul li::before {
+    width: 20px;
+    height: 20px;
+}
+.what_test_exposed_content p {
+    margin-bottom: 20px;
+}
+/* what-section-starts */
+
+
+/* help-section-starts */
+.help_section {
+    padding: 30px 0;
+}
+.help_box-area h3 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+.help_box-area {
+    padding: 18px;
+}
+.help_box-area:not(:last-child) {
+    margin-bottom: 30px;
+}
+.help_box-area h3::before {
+    width: 20px;
+    height: 20px;
+}
+.help_box-area h5 {
+    font-size: 18px;
+}
+.help_box_links a {
+    padding: 8px 8px;
+}
+/* help-section-ends */
+
+/* symptom-section-starts */
+.symptom_area .row{
+  row-gap: 20px!important;
+}
+.symptom_box-area {
+    padding: 18px;
+}
+.symptom_box-area h3 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+.symptom_box-area h3::before {
+    width: 20px;
+    height: 20px;
+}
+.symptom_section {
+    padding: 30px 0;
+}
+/* symptom-section-ens */
+
+/* impact-section-starts */
+.impact_section {
+    padding: 30px 0;
+}
+.impact_box-area h3 {
+    padding-left: 30px;
+    font-size: 20px;
+}
+.impact_box-area h3::before {
+    width: 20px;
+    height: 20px;
+}
+.impact_box-area {
+    padding: 18px;
+}
+.impact_box-area ul li {
+    font-size: 14px;
+    padding-left: 32px;
+    margin-bottom: 27px;
+}
+.impact_box-area ul li::before {
+    height: 20px;
+    width: 20px;
+}
+/* impact-section-ends */
+
+/* resource-section-starts */
+.Resource_tab_section {
+    padding: 30px 0;
+}
+.Resource_accordion-list .Resource_accordion-link {
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.resource_tab_card_content {
+padding: 20px;
+}
+.resource_tab_card_content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resource_tab_card_number p {
+    font-size: 23px;
+}
+/* resource-section-ends */
+
+/* where-section-starts */
+.where_section {
+    padding: 30px 0;
+}
+.where_heading {
+    margin-bottom: 30px;
+}
+.where_card_area {
+    padding: 18px;
+}
+.where_card_content {
+    padding: 22px 8px 0 8px;
+}
+.where_card_content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.where_card_btn_area a img {
+    width: 25px;
+} 
+/* where-section-ends */
+
+/* other-project-section-starts */
+.other_project_section {
+    padding: 30px 0;
+}
+.other_project_heading {
+    margin-bottom: 40px;
+}
+    .other_project_grid_area {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+        .other_project_image_area {
+        grid-area: unset !important;
+    }
+/* other-project-section-ends */
+
+/* mold-section-starts */
+.mold_area {
+    padding:30px 20px;
+}
+.mold_content_area {
+    padding: 20px 0;
+}
+/* mold-section-ends */
+/* footer-section-starts */
+footer {
+    padding: 30px 0 0 0;
+}
+.social_icon_area ul li a i {
+width: 30px;
+height: 30px;
+font-size: 15px;
+}
+.footer_nav_area h6 {
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+.footer_nav_area ul li a {
+    font-size: 14px;
+}
+.footer_nav_area ul li:not(:last-child) {
+    margin-bottom: 14px;
+}
+.copyright_text p {
+    font-size: 14px;
+}
+.desigined_area p {
+    font-size: 14px;
+}
+.copyright_text {
+  margin-bottom: 14px!important;
+}
+/* footer-section-ends */
+
+}
+
+
+
+
+@media only screen and (max-width:360px){
+
+  .additional_information_links {
+    gap: 15px;
+}
+.hamburger_menu i {
+    font-size: 22px;
+}
+.close_btn i {
+    font-size: 22px;
+}
+  /* banner-section-starts */
+  .banner_heading h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  /* banner-section-ends */
+/* help-section-starts */
+.help_box_links a {
+ font-size: 12px;
+}
+.help_box-area h3 {
+    font-size: 16px;
+}
+.help_box-area h5 {
+    font-size: 16px;  
+}
+/* help-section-ends */
+
+/* symptom-section-starts */
+.symptom_box-area h3 {
+    font-size: 16px;
+}
+/* symptom-section-ends */
+
+/* impact-section-starts */
+.impact_box-area h3 {
+    font-size: 16px;
+}
+/* impact-section-ends */
+
+/* resource-section-starts */
+.additional_information_area p {
+    font-size: 12px;
+}
+.additional_information_links {
+    gap: 15px;
+}
+/* resource-section-ends */
+
+/* where-section-starts */
+.where_card_content p {
+    font-size: 13px;
+}
+/* where-section-ends */
+
+/* mold-section-starts */
+.mold_area {
+    padding:20px ;
+}
+.mold_content_heading h2{
+  margin-bottom: 0;
+}
+.mold_content_heading h2 span {
+    font-size: 23px;
+}
+.mold_content_text p {
+    font-size: 12px;
+}
+.common_btn a {
+    line-height: 33px;
+    font-size: 13px;
+}
+/* mold-section-ends */
+
+/* footer-section-starts */
+.logo_area p {
+    font-size: 12px;
+}
+.desigined_area p {
+    font-size: 12px;
+}
+.lower_footer_wrapper {
+    padding: 18px 0;
+}
+/* footer-section-ends */
+
+}
