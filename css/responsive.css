@@ -1765,6 +1765,14 @@ font-size: 15px;
 .copyright_text {
   margin-bottom: 14px!important;
 }
+.mold_content_heading::after {
+    height: 3px;
+    bottom: -2px;
+}
+.mold_content_heading {
+    border-bottom: 1px solid #018393;
+    padding-bottom: 20px;
+}
 /* footer-section-ends */
 
 }
