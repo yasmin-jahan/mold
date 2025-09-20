@@ -125,46 +125,93 @@ document.querySelector(".header_main_nav").classList.remove("header_mobile_nav_a
 document.querySelector(".black_overlay").style.display = "none";
 });
 
-//tab-2
-//tab-1
-// Initial state
 
-// $(".Resource_tab_content").hide();
-// $(".Resource_tab_content:first").show();
 
-// // Desktop tab click
-// $(".Resource_tab_ul li a").click(function (e) {
-//   e.preventDefault();
-//   let activeTab = $(this).data("tab"); // use data-tab
+// $(document).ready(function () {
+//   $(".Resource_tab_section").each(function () {
+//     var $section = $(this);
 
-//   if ($(this).hasClass("active")) return;
+//     // Desktop tabs
+//     $section.find(".Resource_tab-link").click(function (e) {
+//       e.preventDefault();
+//       var target = $(this).attr("href");
 
-//   $(".Resource_tab_ul li a").removeClass("active");
-//   $(this).addClass("active");
+//       $section.find(".Resource_tab-link").removeClass("active");
+//       $(this).addClass("active");
 
-//   $(".Resource_tab_content").hide();
-//   $("#" + activeTab).show(); // use show() instead of fadeIn for consistency
+//       $section.find(".Resource_tab-content").removeClass("active");
+//       $section.find(target).addClass("active");
+//     });
 
-//   $(".Resource_tab_drawer_link").removeClass("Resource_d_active");
-//   $(".Resource_tab_drawer_link[data-tab='" + activeTab + "']").addClass("Resource_d_active");
+//     // Mobile accordion
+//     $section.find(".Resource_accordion-link").click(function (e) {
+//       e.preventDefault();
+//       var target = $(this).attr("href");
+
+//       if ($(this).hasClass("active")) {
+//         $(this).removeClass("active");
+//         $section.find(target).removeClass("active");
+//       } else {
+//         $section.find(".Resource_accordion-link").removeClass("active");
+//         $section.find(".Resource_accordion-content").removeClass("active");
+
+//         $(this).addClass("active");
+//         $section.find(target).addClass("active");
+//       }
+//     });
+//   });
 // });
 
-// // Mobile accordion click
-// $(".Resource_tab_drawer_link").click(function (e) {
-//   e.preventDefault();
-//   let activeTab = $(this).data("tab");
 
-//   if ($(this).hasClass("Resource_d_active")) {
-//     $(this).removeClass("Resource_d_active");
-//     $("#" + activeTab).slideUp();
-//   } else {
-//     $(".Resource_tab_drawer_link").removeClass("Resource_d_active");
-//     $(".Resource_tab_content").slideUp();
 
-//     $(this).addClass("Resource_d_active");
-//     $("#" + activeTab).slideDown();
+$(document).ready(function () {
+  $(".Resource_tab_section").each(function () {
+    var $section = $(this);
 
-//     $(".Resource_tab_ul li a").removeClass("active");
-//     $(".Resource_tab_ul li a[data-tab='" + activeTab + "']").addClass("active");
-//   }
-// });
+    // ✅ Initialize icons based on active state
+    $section.find(".Resource_accordion-link").each(function () {
+      if ($(this).hasClass("active")) {
+        $(this).find(".icon").removeClass("fa-plus").addClass("fa-minus");
+      } else {
+        $(this).find(".icon").removeClass("fa-minus").addClass("fa-plus");
+      }
+    });
+
+    // Desktop tabs
+    $section.find(".Resource_tab-link").click(function (e) {
+      e.preventDefault();
+      var target = $(this).attr("href");
+
+      $section.find(".Resource_tab-link").removeClass("active");
+      $(this).addClass("active");
+
+      $section.find(".Resource_tab-content").removeClass("active");
+      $section.find(target).addClass("active");
+    });
+
+    // Mobile accordion
+    $section.find(".Resource_accordion-link").click(function (e) {
+      e.preventDefault();
+      var target = $(this).attr("href");
+
+      if ($(this).hasClass("active")) {
+        // Close the active accordion
+        $(this).removeClass("active")
+               .find(".icon").removeClass("fa-minus").addClass("fa-plus");
+        $section.find(target).removeClass("active");
+      } else {
+        // Reset all
+        $section.find(".Resource_accordion-link")
+                .removeClass("active")
+                .find(".icon").removeClass("fa-minus").addClass("fa-plus");
+
+        $section.find(".Resource_accordion-content").removeClass("active");
+
+        // Open this one
+        $(this).addClass("active")
+               .find(".icon").removeClass("fa-plus").addClass("fa-minus");
+        $section.find(target).addClass("active");
+      }
+    });
+  });
+});
