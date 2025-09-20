@@ -1962,43 +1962,7 @@ Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat.</span></p>
 <script src="js/script.js"></script>
 <!-- swiper-link -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-$(document).ready(function () {
-  $(".Resource_tab_section").each(function () {
-    var $section = $(this);
 
-    // Desktop tabs
-    $section.find(".Resource_tab-link").click(function (e) {
-      e.preventDefault();
-      var target = $(this).attr("href");
-
-      $section.find(".Resource_tab-link").removeClass("active");
-      $(this).addClass("active");
-
-      $section.find(".Resource_tab-content").removeClass("active");
-      $section.find(target).addClass("active");
-    });
-
-    // Mobile accordion
-    $section.find(".Resource_accordion-link").click(function (e) {
-      e.preventDefault();
-      var target = $(this).attr("href");
-
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active");
-        $section.find(target).removeClass("active");
-      } else {
-        $section.find(".Resource_accordion-link").removeClass("active");
-        $section.find(".Resource_accordion-content").removeClass("active");
-
-        $(this).addClass("active");
-        $section.find(target).addClass("active");
-      }
-    });
-  });
-});
-
-</script>
 
 </body>
 </html>
