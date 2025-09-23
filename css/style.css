@@ -133,6 +133,7 @@ header.sticky::before {
 }
 
 .banner_section {
+    padding-top: 100px;
     padding-bottom: 80px;
 }
 
@@ -533,6 +534,7 @@ header.sticky::before {
     border-top: 1px solid #333;
     text-decoration: none;
     justify-content: space-between;
+    transition: background .5s ease-in-out;
     align-items: center;
     font-size: 17px;
 }
@@ -2119,9 +2121,11 @@ footer {
     margin-bottom: 20px;
     transition: background .5s ease-in-out;
 }
-.resourse_tab_wrapper{
+
+.resourse_tab_wrapper {
     padding: 40px 0;
 }
+
 .Resource_accordion-list a.active {
     background: #018393;
     color: #fff;
@@ -2142,6 +2146,7 @@ footer {
 .Resource_accordion-content.active {
     display: block;
 }
+
 .additional_information_area {
     margin-top: 80px;
 }
