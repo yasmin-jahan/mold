@@ -177,7 +177,7 @@
   .home_short_content_area p {
     font-size: 22px;
   }
-}
+
   /* tab-section-starts */
 
 
@@ -390,9 +390,11 @@
 
   .additional_information_links {
     margin-top: 50px;
+  }
   /* resource-section-ends */
 
   /* where-section-starts */
+
   .where_section {
     padding: 80px 0;
   }
@@ -447,9 +449,9 @@
   }
 
   /* footer-section-ends */
+
+
 }
-
-
 @media only screen and (max-width:1199px) {
 
   /* header-section-starts */
