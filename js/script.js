@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //   // $('.resource_tab_card_content p').matchHeight();
 // }
 
-// 
+//MatchHeight for slider 
  function MatchHeight() {
     $('.you_content h4').matchHeight({});
   }
@@ -49,6 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+
+//MatchHeight for resource tab
+  function MatchHeight() {
+    $('.resource_tab_card_content h3').matchHeight();
+  }
+  MatchHeight();
 
 
 
